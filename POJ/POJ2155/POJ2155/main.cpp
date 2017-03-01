@@ -7,9 +7,28 @@
 //
 
 #include <iostream>
+#define MAXN 10000
+using namespace std;
+int a[MAXN];
+int getMin(int x){
+    return x & (-x);
+}
 
+void update(int num, int i){
+    while (i < MAXN){
+        a[i] += num;
+        i += getMin(i);
+    }
+}
+
+void sum(int i){
+    int ans = 0;
+    while(i > 0){
+        ans += a[i];
+        i -= getMin(i);
+    }
+}
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    cout << getMin(6) << endl;
+    
 }

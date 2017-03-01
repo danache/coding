@@ -1,0 +1,5 @@
+与普通的二分查找类似，这里只是找到最左端和最右端。
+最左端思路是：
+由于mid = (Left / right) / 2。说明当单数时向左偏。于是
+当a[mid] == target时，最左端在[left, mid]之间，于是将right置为mid,即下一次从[left, mid]中搜索，结束条件是left==right。
+同理mid = (left + right) / 2 + 1时，a[mid] == target，证明最右端在[mid, right]中，将left设置为mid.下一次从 [mid, right]找

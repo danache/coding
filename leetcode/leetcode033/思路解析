@@ -1,0 +1,13 @@
+首先明确，打乱了之后相当于第一个位置偏移了一定量，找到这个偏移量后
+就相当于二分查找了。所以首先找到偏移量
+也是采用二分查找的方式。假设left,right
+mid = (left + right) >> 1;
+如果a[mid] > a[right]
+说明mid 到right之间是存在逆序的（至少mid是，所以把left设置为mid + 1).
+如果a[mid] <= a[right]
+说明mid到right之间是顺序的，原始位置在left,mid之间。将right设置为mid
+当left == right时，找到原点，此时left==right==偏移量。将其记录
+之后是二分查找，不同的是，每次计算mid时还要计算经过偏移量后的realMid：(mid + rot) % n;
+如果等于target返回realmid，如果小于target将right设为mid - 1,否则left = mid + 1;
+循环结束的条件是left > right(要考虑left == right的情况)
+当跳出while循环时证明不存在target，返回-1；

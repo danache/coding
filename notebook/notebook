@@ -1,5 +1,0 @@
-1.void*大小？
-void* 可以看做一个integeral type.
-sizeof(void*)是取决于这个整形量有多少个字节而不是取决于其指向了啥决定的。
-void*有多大看编译器目标平台类型。x86通常4 bytes. x64通常8bytes
-2.

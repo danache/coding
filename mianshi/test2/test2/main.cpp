@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include <bitset>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+bitset<479240000> a;
+int main()
+{
+    printf("%d", sizeof(a));
 }
