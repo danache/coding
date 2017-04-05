@@ -1,0 +1,2 @@
+使用循环链表，记录链表长度len，之后将尾部链到头部，在循环len - k次找到需要头部即可。
+注意k %= len的判断，虽然我也不知道是为啥（So, no matter how big K, the number of steps is, the result is always the same as rotating K % n steps to the right.）

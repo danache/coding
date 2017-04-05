@@ -1,0 +1,8 @@
+删除重复元素。
+使用三个指针加哨兵。
+ppre作为真正的链。
+pcur从head开始
+若pcur->next->val == pcur->val，那么将pcur与pcur->next一起删除，在这里的做法是立个flag，
+一旦发现重复，先一个一个删，最后的是后再把重复的元素删掉。
+如果不重复的话直接将pcur放在ppre后面，然后向后传递。‘
+最后返回shaobing的next。
