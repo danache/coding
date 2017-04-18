@@ -7,12 +7,38 @@
 //
 #include <stdio.h>
 #include <iostream>
+#include <bitset>
 using namespace std;
-final float i = 3.14f;
+
 int main()
 {
-    MyClass obj1(1), obj2(2);
-    MyClass obj3;
-    obj3 = obj1;
+    int n;
+    cin >> n;
+    while(n--){
+
+        bitset<32> aint;
+        bitset<32> bint;
+        cin >> aint >> bint;
+        int alen = aint.size();
+        int blen = bint.size();
+        
+        if (alen > blen){
+            int num = alen - blen;
+            for(int i = 0; i < blen;i++){
+                aint[i + num] = aint[i + num] ^ (bint[i]);
+            }
+            cout << aint.to_ulong() << endl;
+        }
+        else{
+            int num = blen - alen;
+            for(int i = 0; i < alen;i++){
+                bint[i + num] = bint[i + num] ^ (aint[i]);
+            }
+            cout << bint.to_ulong() << endl;
+        }
+        
+
+
+    }
     return 0;
 }
