@@ -1,0 +1,2 @@
+本题的关键是树状数组。
+其中的关键函数是getlowbit函数，利用二分的思想，每次生成一个最高位。参考http://blog.csdn.net/int64ago/article/details/7429868。
