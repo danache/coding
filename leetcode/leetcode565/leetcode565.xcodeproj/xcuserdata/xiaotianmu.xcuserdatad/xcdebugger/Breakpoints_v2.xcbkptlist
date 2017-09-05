@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205159.963695"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getnum(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::map&lt;int, int, std::__1::less&lt;int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int const, int&gt; &gt; &gt;&amp;)"
+                  moduleName = "leetcode565"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaotianmu/Desktop/coding/leetcode/leetcode565/leetcode565/main.cpp"
+                  timestampString = "526205563.695315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getnum(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::map&lt;int, int, std::__1::less&lt;int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int const, int&gt; &gt; &gt;&amp;)"
+                  moduleName = "leetcode565"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaotianmu/Desktop/coding/leetcode/leetcode565/leetcode565/main.cpp"
+                  timestampString = "526205563.697504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "563">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcode565/main.cpp"
+            timestampString = "526205441.700646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getnum(vector&lt;int&gt;&amp; nums, int nowpos, vector&lt;int&gt; now,map&lt;int, int&gt;&amp; mp)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
