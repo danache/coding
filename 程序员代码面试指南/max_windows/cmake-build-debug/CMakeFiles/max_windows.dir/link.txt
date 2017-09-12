@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/max_windows.dir/main.cpp.o  -o max_windows 

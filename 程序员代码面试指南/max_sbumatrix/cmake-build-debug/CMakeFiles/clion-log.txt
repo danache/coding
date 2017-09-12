@@ -1,0 +1,4 @@
+/home/dan/clion-2017.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dan/coding/程序员代码面试指南/max_sbumatrix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dan/coding/程序员代码面试指南/max_sbumatrix/cmake-build-debug
