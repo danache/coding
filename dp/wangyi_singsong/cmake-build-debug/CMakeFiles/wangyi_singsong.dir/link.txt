@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/wangyi_singsong.dir/main.cpp.o  -o wangyi_singsong 

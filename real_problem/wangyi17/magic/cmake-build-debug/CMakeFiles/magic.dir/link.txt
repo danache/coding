@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/magic.dir/main.cpp.o  -o magic 

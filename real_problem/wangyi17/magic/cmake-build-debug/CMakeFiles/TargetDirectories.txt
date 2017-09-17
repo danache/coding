@@ -1,0 +1,3 @@
+/home/dan/coding/real_problem/wangyi17/magic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dan/coding/real_problem/wangyi17/magic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dan/coding/real_problem/wangyi17/magic/cmake-build-debug/CMakeFiles/magic.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/coding/real_problem/wangyi17/magic/main.cpp
+iostream
+-
+stack
+-
+set
+-
+vector
+-
+queue
+-
+algorithm
+-
+
