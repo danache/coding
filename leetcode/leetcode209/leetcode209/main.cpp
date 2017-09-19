@@ -10,27 +10,24 @@
 #include <vector>
 using namespace std;
 int minSubArrayLen(int s, vector<int>& nums) {
-    int tmp[nums.size()][nums.size()];
-    memset(tmp, 0, sizeof(tmp));
-    int minLen = 99999;
-    for(int i = 0; i < nums.size(); i++){
-        tmp[i][i] = nums[i];
-    }
-    for(int i = 0; i < nums.size(); i++){
-        for(int j = i + 1; j < nums.size(); j++){
-            tmp[i][j] = tmp[i][j-1]+tmp[j][j];
-            if(tmp[i][j] == s)
-                if(j - i < minLen){
-                    minLen = j - i;
-                }
-            else if(tmp[i][j] > s)
-                break;
+    int begin = 0, end = 0;
+    int minnum = INT32_MAX;
+    int sum = 0;
+    while(begin < nums.size() && end < nums.size()){
+        while(sum < s && end < nums.size()){
+            sum += nums[end++];
+        }
+        while(sum >= s && begin <= end){
+            minnum = min(minnum, end - begin);
+            sum -= nums[begin++];
         }
     }
-    return minLen == 99999 ? 0 : minLen;
+    return minnum == INT32_MAX ? 0 : minnum;
 }
 int main(int argc, const char * argv[]) {
     // insert code here...
+    vector<int> nums = {1,4,4};
+    minSubArrayLen(4,nums);
     std::cout << "Hello, World!\n";
     return 0;
 }
