@@ -1,0 +1,17 @@
+309思路解析：
+我们可以一开始维护三个数组来存储一下装态：
+buy[i],sell[i],keep[i]
+分别第i天以名称结尾的操作获得的最大收益：
+则有以下递推式：
+buy[i] = max(buy[i], keep[i - 1] - price)//因为第i天买入前一天肯定并是卖出
+sell[i] = max(sell[i - 1], buy[i -1] + price)//要麦的话前一天不能是cooldown，所以不可能是keep
+keep[i] = max(keep[i -1], buy[i -1], sell[ i - 1])//设么都不做的最大值
+
+对其进行化简：
+因为要杜绝buy cooldown buy这样的组合，因此keep[i]不能使buy[i - 1],
+keep[i] = max(keep[i -1], sell[ i - 1])
+又因为 keep[i - 1] <= sell[i - 1],显然，我之前卖了的最大值至少不会比持有差
+所以keep[i] = sell[i - 1]
+带入上面可得：
+buy[i] = max(buy[i], sell[i - 2] - price)
+sell[i] = max(sell[i - 1], buy[i -1] + price)

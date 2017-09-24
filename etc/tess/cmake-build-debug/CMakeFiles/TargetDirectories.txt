@@ -1,0 +1,3 @@
+F:/coding/etc/tess/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/coding/etc/tess/cmake-build-debug/CMakeFiles/tess.dir
+F:/coding/etc/tess/cmake-build-debug/CMakeFiles/rebuild_cache.dir

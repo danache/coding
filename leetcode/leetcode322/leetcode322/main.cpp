@@ -1,38 +1,31 @@
-//
-//  main.cpp
-//  leetcode322
-//
-//  Created by 萧天牧 on 17/8/9.
-//  Copyright © 2017年 萧天牧. All rights reserved.
-//
-
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
-bool getmin(vector<int>& coins, int leftValue, int nowpick, int& minpick){
-    if(leftValue == 0){
-        minpick = min(minpick, nowpick);
-        return true;
-    }
-    for(int i = coins.size() - 1; i >= 0; i--){
-        if (coins[i] > leftValue)
-            continue;
-        if(getmin(coins, leftValue - coins[i], nowpick + 1, minpick))
-            return true;
-    }
-    return false;
-}
 int coinChange(vector<int>& coins, int amount) {
-    int nowpick = 0, minpick = INT_MAX;
-    sort(coins.begin(), coins.end());
-    if (getmin(coins, amount, nowpick, minpick))
-        return minpick;
-    return -1;
+    if(amount == 0)
+        return 0;
+    vector<int> vec(amount + 1, 0);
+
+    for(int i = 1; i <= amount; i++){
+        if(find( coins.begin(), coins.end(),i ) != coins.end()){
+            vec[i] = 1;
+        }
+        else{
+            int minnum = INT16_MAX;
+            for(int j = coins.size() - 1; j >= 0; j--){
+                if(coins[j] > i)
+                    continue;
+                minnum = min(minnum, vec[coins[j]] +  vec[i - coins[j]]);
+            }
+            vec[i] = minnum;
+        }
+    }
+    return vec[amount] == INT16_MAX ? -1 : vec[amount];
 }
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    vector<int> a = {186,419,83,408};
-    cout << coinChange(a, 6249) << endl;
-    std::cout << "Hello, World!\n";
+int main() {
+    vector<int> a = {2};
+    cout <<coinChange(a,3);
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
