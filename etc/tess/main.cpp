@@ -1,58 +1,36 @@
 #include <iostream>
-#include <map>
-#include <queue>
+#include <vector>
+
 using namespace std;
-int dx[] = {1,-1,0,0};
-int dy[] = {0,0,1,-1};
 
-void getmaxblack(vector<vector<int>> map,vector<vector<bool>>& flag, int& maxlen, int i, int j , int len, int lastdirection){
-    if(flag[i][j])
-        return;
-    if(map[i][j] != 1){
-        flag[i][j] = true;
-        return ;
-    }
-    flag[i][j] = true;
-    if(map[i][j] == 1){
-        len += 1;
-        if(lastdirection != -1){
-            int next_i = i + dx[lastdirection];
-            int next_j = j + dx[lastdirection];
-            if(0 <=next_i && 0 <=next_j && next_i < map.size() && next_j< map.size()
-               && !flag[next_i][next_i] ){
-                if(map[next_i][next_j] == 2){
-                    flag[next_i][next_j] = true;
-                    len -= 1;
-                    maxlen = max(maxlen, len);
-                }
-                else if (map[next_i][next_j] == 1){
-                    getmaxblack(map,flag,
-                             maxlen, next_i, next_j , len, lastdirection);
-                }
-            }
-
-        }else{
-            for(int k = 0; i < 4; i++){
-                int next_i = i + dx[k];
-                int next_j = j + dx[k];
-                if(0 <=next_i && 0 <=next_j && next_i < map.size() && next_j< map.size()
-                   && !flag[next_i][next_i] && map[next_i][next_j] == 1){
-                    getmaxblack(map,flag,
-                                maxlen, next_i, next_j , len, k);
-                }
-            }
-        }
-
-    }
+void swap(int *a, int*b){
+    int *c;
+    *c=*a;*a=*b;*b=*c;
+};
+void swap_l(int &a, int &b){
+    int c;
+    c=a;a=b;b=c;
+};
+void swap2(int *a, int i, int j){
+    int d=a[i];
+    a[i]=a[j];
+    a[j]=d;
+};
+void bubble(int *a , int b){
+    for(int j=0;j<b;j++){
+        for(int i=0;i<b;i++){
+            if(a[i]>a[i+1])
+                swap2(a,i,(i+1));
+        };
+    };
 }
+
 int main() {
-    int n;
-    cin >> n;
-    vector<vector<int>> map(n,vector<int>(n,0));
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            cin >> map[i][j];
-        }
-    }
-    vector<
+    int a[] = {1,3,54,76,78,3,42,13,42,76,45};
+    int b = sizeof(a)/sizeof(*a);
+    bubble(a,11);
+//    swap2(a,3,5);
+    for(int i = 0; i < b; i++)
+        cout << a[i]<<" ";
+    cout << endl;
 }
