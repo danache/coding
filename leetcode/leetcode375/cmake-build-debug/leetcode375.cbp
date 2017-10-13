@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode375"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/coding/leetcode/leetcode375/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode375">
+				<Option output="F:/coding/leetcode/leetcode375/cmake-build-debug/leetcode375.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/coding/leetcode/leetcode375/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode375"/>
+					<CompileFile command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode375/fast">
+				<Option output="F:/coding/leetcode/leetcode375/cmake-build-debug/leetcode375.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/coding/leetcode/leetcode375/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="e:\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode375/fast"/>
+					<CompileFile command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/coding/leetcode/leetcode375/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/coding/leetcode/leetcode375/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/bin/mingw32-make.exe -f &quot;F:/coding/leetcode/leetcode375/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/coding/leetcode/leetcode375/main.cpp">
+			<Option target="leetcode375"/>
+		</Unit>
+		<Unit filename="F:/coding/leetcode/leetcode375/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
