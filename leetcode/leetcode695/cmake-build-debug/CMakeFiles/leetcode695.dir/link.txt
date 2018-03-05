@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/leetcode695.dir/main.cpp.o  -o leetcode695 

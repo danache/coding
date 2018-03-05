@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/toutiao.dir/main.cpp.o  -o toutiao 

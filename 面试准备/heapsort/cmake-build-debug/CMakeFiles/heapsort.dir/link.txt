@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/heapsort.dir/main.cpp.o  -o heapsort 
