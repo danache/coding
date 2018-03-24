@@ -1,0 +1,3 @@
+/home/dan/coding/mianshi/test324/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dan/coding/mianshi/test324/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dan/coding/mianshi/test324/cmake-build-debug/CMakeFiles/test324.dir

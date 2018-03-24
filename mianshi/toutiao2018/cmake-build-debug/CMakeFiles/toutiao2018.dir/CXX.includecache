@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/coding/mianshi/toutiao2018/main.cpp
+iostream
+-
+vector
+-
+map
+-
+algorithm
+-
+iostream
+-
+vector
+-
+algorithm
+-
+

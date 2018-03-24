@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/toutiao2018.dir/main.cpp.o  -o toutiao2018 

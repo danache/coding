@@ -1,4 +1,4 @@
-/home/dan/clion-2017.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dan/coding/mianshi/test
+/home/dan/clion-2017.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dan/coding/面试准备/nowcoder/2/2
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,10 +13,6 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-CMake Error at CMakeLists.txt:7 (add_executable):
-  The target name "test" is reserved or not valid for certain CMake features,
-  such as generator expressions, and may result in undefined behavior.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/dan/coding/mianshi/test/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dan/coding/面试准备/nowcoder/2/2/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/test324.dir/main.cpp.o  -o test324 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ct.dir/main.cpp.o  -o ct 
