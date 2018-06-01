@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ali.dir/main.cpp.o  -o ali 

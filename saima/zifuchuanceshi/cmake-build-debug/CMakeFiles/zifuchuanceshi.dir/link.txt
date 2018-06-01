@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/zifuchuanceshi.dir/main.cpp.o  -o zifuchuanceshi 

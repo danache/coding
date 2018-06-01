@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/coding/2018bishi/ali/main.cpp
+iostream
+-
+math.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+assert.h
+-
+limits.h
+-
+stdbool.h
+-
+vector
+-
+

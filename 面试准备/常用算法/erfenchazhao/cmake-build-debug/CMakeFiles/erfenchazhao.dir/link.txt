@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/erfenchazhao.dir/main.cpp.o  -o erfenchazhao 
